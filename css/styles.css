@@ -1,0 +1,268 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Start of nav styles */
+.main-nav {
+    background: #ccc;
+    padding: 15px;
+    height: 80px;
+}
+
+.logo {
+    height: 100%;
+}
+
+.nav-list {
+    float: right;
+    list-style: none;
+    margin: 25px 0px;
+}
+
+.nav-item {
+    float: left;
+    margin-left: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: black;
+    text-decoration: overline;
+}
+/**End of nav styles**/
+
+/** Start of hero section styles**/
+.hero-section {
+    background-image: url('../images/candybackground.jpg');
+    height: 300px;
+    background-size: cover;
+}
+
+.brand-name {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding-top: 118px;
+    font-size: 42px;
+}
+
+.brand-background {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+}
+/** End of hero section styles**/
+
+/** Start of column section styles **/
+.info-columns {
+    padding: 15px;
+}
+
+.info-columns::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.column {
+    width: 300px;
+    float: left;
+    height: 300px;
+    border: none;
+    margin: 0px 5%;
+    text-align: center;
+    background-color: rgba(242, 19, 216, .05);
+}
+
+.column-image {
+    
+}
+
+.description-paragraph {
+    font-weight: bold;
+}
+
+.column-button1 {
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: #ffa5f4;
+}
+
+.column-button2 {
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: #ffc77f;
+}
+
+.column-button3 {
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: #7fffb6;
+}
+/**End of Column Styles**/
+
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 25px 25px 0px 25px;
+    background-color: rgba(255, 255, 255, .75); 
+}        
+        
+.contact-page {
+    height: initial;
+    padding-bottom: 25px;
+}
+
+.contact-header {
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+/**Start of Flavors Styles**/
+.flavors-section {
+    background: #c1d9ff;
+}
+
+.flavors-section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.description-column{
+    width: 50%;
+    float: left;
+    background: #c1d9ff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.description-column p {
+    padding: 0px 15px;
+
+}
+
+.flavors-image {
+    border-radius: 100%;
+    
+}
+
+/**End of Flavors Styles**/
+
+/**Start of Bio Body**/
+/**.banner {
+    height: 300px;
+    background: pink;
+}
+
+.icecream-animate {
+    height: 100px;
+    position: absolute;
+    top: calc(100%/3);
+    left: 45%;
+    transition: all 2s;
+}
+
+.icecream-animate:hover {
+    left: 90%;
+    transform: rotateX(360deg);
+    transition-timing-function: cubic-bezier(.39,.01,.1,.99);
+}**/
+
+.about-section {
+    background: #f9fbff;
+}
+
+.about-section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bio-column {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: #f9fbff;
+    text-align: justify;
+}
+
+.bio-image {
+    height: 300px;
+    border-radius: 100%;
+    margin: 40px 0px 10px 300px;
+}
+
+.bio-header {
+    text-align: center;
+}
+
+.bio-paragraph {
+    padding-right: 20px;
+}
+
+.reel-video {
+    padding-left: 25%;
+}
+
+
+/**End of Bio Body**/
+
+/**Start of Footer Styles**/
+.footer-container {
+    height: 50px;
+    background: #ccc;
+    padding-top: 15px;
+}
+
+.social-media-container {
+    width: 15%;
+    margin-top: 5px;
+}
+
+.social-media-container a {
+     text-decoration: none;
+}
+
+.social-media-container .fa {
+    font-size: 32px;
+    color: blue;
+    margin-left: 15%;
+}
+
+.contact-container {
+    width: 60%;
+    text-align: center;
+    margin-left: 55px;
+}
+
+.contact-info {
+    display: inline-block;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.copyright {
+    display: inline-block;
+    margin: 0px 55px;
+}
+
+.address {
+    display: inline-block;
+    text-align: center;
+}
+/**End of Footer Styles*/
