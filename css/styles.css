@@ -207,11 +207,11 @@ body {
     padding-right: 20px;
 }
 
-.reel-video {
-    padding-left: 25%;
+.video-container {
+    height: 350px;
+    width: 50%;
+    margin: 0 auto;
 }
-
-
 /**End of Bio Body**/
 
 /**Start of Footer Styles**/
